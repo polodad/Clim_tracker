@@ -1,0 +1,31 @@
+{
+  "vehicles": [
+    {
+      "id": "Kwid-01",
+      "name": "Vehículo Principal",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "lastSeen": "2024-01-15T10:30:00-06:00",
+      "status": "active",
+      "driver": "Juan Pérez"
+    },
+    {
+      "id": "Kwid-02",
+      "name": "Vehículo Secundario",
+      "lat": 19.4200,
+      "lng": -99.1200,
+      "lastSeen": "2024-01-15T10:25:00-06:00",
+      "status": "active",
+      "driver": "María García"
+    },
+    {
+      "id": "Kwid-03",
+      "name": "Vehículo de Respaldo",
+      "lat": 19.4100,
+      "lng": -99.1100,
+      "lastSeen": "2024-01-15T10:20:00-06:00",
+      "status": "maintenance",
+      "driver": "Carlos López"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vado Río Bravo",
+        "risk": "alto",
+        "description": "Punto de cruce crítico en época de lluvias"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-99.1234, 19.4326],
+          [-99.1200, 19.4326],
+          [-99.1200, 19.4300],
+          [-99.1234, 19.4300],
+          [-99.1234, 19.4326]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Base Operativa Norte",
+        "risk": "medio",
+        "description": "Centro de operaciones zona norte"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-99.1500, 19.4500],
+          [-99.1450, 19.4500],
+          [-99.1450, 19.4480],
+          [-99.1500, 19.4480],
+          [-99.1500, 19.4500]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Punto Bajo Industrial",
+        "risk": "alto",
+        "description": "Zona industrial propensa a inundaciones"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-99.1000, 19.4000],
+          [-99.0950, 19.4000],
+          [-99.0950, 19.3980],
+          [-99.1000, 19.3980],
+          [-99.1000, 19.4000]
+        ]]
+      }
+    }
+  ]
+}

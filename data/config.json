@@ -1,0 +1,15 @@
+{
+  "telegram_chat_id": "<CHAT_ID>",
+  "rain_probability_threshold": 70,
+  "rain_intensity_mmph": 5,
+  "radar_distance_km": 10,
+  "alert_cooldown_min": 30,
+  "timezone": "America/Mexico_City",
+  "forecast_hours": 12,
+  "radar_update_interval_min": 10,
+  "geofence_risk_weights": {
+    "alto": 1.0,
+    "medio": 0.7,
+    "bajo": 0.4
+  }
+}
