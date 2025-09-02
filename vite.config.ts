@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/clima-tracker/' : '/',
+  base: command === 'build' ? '/Clim_tracker/' : '/',
   build: {
     outDir: 'dist',
     sourcemap: true

@@ -13,7 +13,7 @@ Un MVP gratuito para monitorear lluvia e inundaciones para flotas en México, co
 
 ## 🚀 Demo en Vivo
 
-[Ver demo](https://polodad.github.io/clima-tracker/)
+[Ver demo](https://polodad.github.io/Clim_tracker/)
 
 
 ## 📋 Requisitos
@@ -28,8 +28,8 @@ Un MVP gratuito para monitorear lluvia e inundaciones para flotas en México, co
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/polodad/clima-tracker.git
-cd clima-tracker
+git clone https://github.com/polodad/Clim_tracker.git
+cd Clim_tracker
 ```
 
 ### 2. Instalar dependencias
@@ -160,7 +160,7 @@ git push origin main
 3. **El despliegue se ejecutará automáticamente:**
    - Cada vez que hagas push a la rama `main`
    - El workflow construirá el proyecto y lo desplegará
-   - Tu sitio estará disponible en: `https://polodad.github.io/clima-tracker/`
+   - Tu sitio estará disponible en: `https://polodad.github.io/Clim_tracker/`
 
 4. **Actualizar URLs en el código:**
    - URLs actualizadas para el usuario: polodad
@@ -342,9 +342,9 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 
 ## 🆘 Soporte
 
-- **Issues:** [GitHub Issues](https://github.com/polodad/clima-tracker/issues)
-- **Documentación:** [Wiki](https://github.com/polodad/clima-tracker/wiki)
-- **Discusiones:** [GitHub Discussions](https://github.com/polodad/clima-tracker/discussions)
+- **Issues:** [GitHub Issues](https://github.com/polodad/Clim_tracker/issues)
+- **Documentación:** [Wiki](https://github.com/polodad/Clim_tracker/wiki)
+- **Discusiones:** [GitHub Discussions](https://github.com/polodad/Clim_tracker/discussions)
 
 ## 🙏 Agradecimientos
 
