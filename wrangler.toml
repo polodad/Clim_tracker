@@ -1,18 +1,11 @@
 name = "clima-tracker-worker"
-main = "worker/src/index.ts"
+main = "src/index.ts"
 compatibility_date = "2023-12-01"
 
-[env.production]
-name = "clima-tracker-worker"
-
-[[env.production.kv_namespaces]]
+[[kv_namespaces]]
 binding = "ALERT_CACHE"
 id = "your-kv-namespace-id"
 preview_id = "your-preview-kv-namespace-id"
 
 [[triggers]]
 crons = ["*/15 * * * *"]
-
-[vars]
-TELEGRAM_BOT_TOKEN = ""
-TELEGRAM_CHAT_ID = ""

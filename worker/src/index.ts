@@ -95,7 +95,7 @@ async function checkAndSendAlerts(env: Env): Promise<void> {
 
 async function loadConfig(): Promise<any> {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/polodad/clima-tracker/main/data/config.json');
+    const response = await fetch('https://raw.githubusercontent.com/polodad/Clim_tracker/main/data/config.json');
     return await response.json();
   } catch (error) {
     console.error('Error al cargar configuración:', error);
@@ -112,7 +112,7 @@ async function loadConfig(): Promise<any> {
 
 async function loadGeofences(): Promise<Geofence[]> {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/polodad/clima-tracker/main/data/geofences.geojson');
+    const response = await fetch('https://raw.githubusercontent.com/polodad/Clim_tracker/main/data/geofences.geojson');
     const data = await response.json();
     
     return data.features.map((feature: any) => ({
@@ -129,7 +129,7 @@ async function loadGeofences(): Promise<Geofence[]> {
 
 async function loadVehicles(): Promise<Vehicle[]> {
   try {
-    const response = await fetch('https://raw.githubusercontent.com/polodad/clima-tracker/main/data/vehicles.json');
+    const response = await fetch('https://raw.githubusercontent.com/polodad/Clim_tracker/main/data/vehicles.json');
     const data = await response.json();
     return data.vehicles;
   } catch (error) {

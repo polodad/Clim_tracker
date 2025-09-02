@@ -16,6 +16,8 @@ Un MVP gratuito para monitorear lluvia e inundaciones para flotas en México, co
 [Ver demo](https://polodad.github.io/Clim_tracker/)
 
 
+
+
 ## 📋 Requisitos
 
 - Node.js 18+
